@@ -4,11 +4,11 @@ namespace Sistema\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use DB;
 use Sistema\Http\Requests;
-use Sistema\app\Categoria;
+use Sistema\Categoria;
 use Illuminate\Support\Facades\Redirect;
 use Sistema\Http\Requests\CategoriaFormRequest;
+use DB;
 class CategoriaController extends Controller
 {
 	public function __construct()
