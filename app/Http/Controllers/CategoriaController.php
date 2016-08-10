@@ -4,8 +4,9 @@ namespace Sistema\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use DB;
 use Sistema\Http\Requests;
-use Sistema\app\Categoria.php;
+use Sistema\app\Categoria;
 use Illuminate\Support\Facades\Redirect;
 use Sistema\Http\Requests\CategoriaFormRequest;
 class CategoriaController extends Controller
