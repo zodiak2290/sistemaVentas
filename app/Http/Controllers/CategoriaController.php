@@ -62,7 +62,6 @@ class CategoriaController extends Controller
 		$categoria->descripcion=$request->get('descripcion');
 		$categoria->update();
 		return Redirect::to('almacen/categoria');
-
 	}
 
 	public function destroy($id)

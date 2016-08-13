@@ -25,7 +25,7 @@
 									<td>{{$categoria->nombre}}</td>
 									<td>{{$categoria->descripcion}}</td>
 									<th>
-										<a href=""><button class="btn btn-info">Editar</button></a>
+										<a href="{{URL::action('CategoriaController@edit',$categoria->idcategoria)}}"><button class="btn btn-info">Editar</button></a>
 										<a href=""><button class="btn btn-danger">Eliminar</button></a>
 									</th>
 								</tr>
